@@ -1,0 +1,7 @@
+;module-definition file for Windows Zip DLL -- used by link.exe
+LIBRARY WIZDLL32 ; Library module name
+DESCRIPTION 'Windows Info-ZIP Zip DLL 1.0 by Info-ZIP, Mike White 1996'
+
+EXPORTS
+	 DllZipUpFiles          ; actual entry point
+
